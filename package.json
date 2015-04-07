@@ -1,0 +1,20 @@
+{
+  "name": "agileuni-node",
+  "version": "0.0.1",
+  "description": "Sample code for node.js using express and handlebars",
+  "main": "agileuni.js",
+  "scripts": {
+    "start": "node agileuni.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-/agileuni-node/"
+  },
+  "author": "Peter Stöckli",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-handlebars": "^2.0.0"
+  }
+}
