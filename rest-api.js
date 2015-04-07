@@ -4,7 +4,7 @@ module.exports = function (app) {
     app.get('/api/:name', function(req, res) {
 
         res.json({
-           givenName: req.params.name,
+            givenName: req.params.name,
             length: req.params.name.length
         });
     });
